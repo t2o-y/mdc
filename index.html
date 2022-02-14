@@ -10,10 +10,11 @@
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 <body>
-  <header>
+  <di id="Container">
+  <header id="header">
     <h1>Material Web Design Component</h1>
   </header>
-  <main>
+  <main id="main">
     <div>
       <label class="mdc-text-field mdc-text-field--filled">
         <span class="mdc-text-field__ripple"></span>
@@ -87,9 +88,10 @@
       </button>
     </div>
   </main>
-  <footer>
+  <footer id="footer">
     <small>copyright@t2o</small>
   </footer>
+</di>
   <script>
     const mdc_text_fields = document.querySelectorAll('.mdc-text-field');
     mdc_text_fields.forEach((elm) => mdc.textField.MDCTextField.attachTo(elm));
