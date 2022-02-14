@@ -9,7 +9,7 @@ html,body {
   hieght: 100%;
 }
 
-#container {
+#Container {
   display: flex;
   flex-direction: column;
   height: auto;
